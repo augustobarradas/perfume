@@ -1,0 +1,68 @@
+
+
+body {
+    background-color: white;
+    font-size: 14px;
+    width: 540px;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+.container__imagem {
+    width: 50%;
+}
+
+.container--info__produto {
+    list-style: none;
+}
+
+.container__perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.container__gabrielle {
+    font-family: 'Fraunces', serif;
+    font-size: 200%;
+}
+
+.container__floral {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container--info__produto {
+    display: flex;
+}
+
+/* PRECO */
+
+.container__preco {
+    display: flex;
+    list-style: none;
+}
+
+.container__149{
+    font-family: 'Fraunces', serif;
+    width: 50%;
+}
+
+.container__169 {
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+}
+
+.container__texto--preco {
+    flex-wrap: wrap;
+}
+
+.container__cart {
+    justify-content: center;
+}
+
+.container__cart {
+    font-family: 'Montserrat', sans-serif;
+}
